@@ -1,0 +1,73 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background: rgb(244,155,133);
+    background: linear-gradient(90deg, rgba(244,155,133,1) 0%, rgba(235,217,53,1) 100%);
+}
+
+#app{
+    background-color: #F0E68C;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    margin-top:230px;
+}
+
+#time{
+    text-align: center;
+    padding: 20px;
+}
+
+#time #value{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"]{
+    padding: 10px;
+    border: solid 1px #ccc;
+    width: 300px;
+}
+
+button,
+input[type="submit"]{
+    border:none;
+    background-color: #FF7F50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#task{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    margin-top: 10px;
+}
+
+.task{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.task .complete{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.done{
+    display: inline-block;
+    padding: 5px;
+    border:none;
+    background-color: #FF7F50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
